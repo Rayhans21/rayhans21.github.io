@@ -7,5 +7,6 @@ Nama      : Muhammad Rayhan Syah
 NIM       : 403201010066
 Prodi     : Sistem Informasi
 Smt/kelas : IV/B</pre>
+    <p>Tugas ini dapat diakses di<a class="nav-link" href="https://rayhans21.github.io">https://rayhans21.github.io</a></p>
 </div>
 <?= $this->endSection() ?>

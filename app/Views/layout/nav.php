@@ -10,7 +10,7 @@ navigation">
                 <a class="nav-link" href="../product">Product <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../product/catalog">Catalog</a>
+                <a class="nav-link" href="../product/catalog">Soal 3 UTS</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../siswa">Siswa</a>
