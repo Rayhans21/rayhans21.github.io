@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #73b7e1;
+}
+.navbar-brand {
+  font-family: Brush Script MT;
+  font-size: x-large;
+}
+#Hero {
+  background-color: #cde5f4;
+  color: #73b7e1;
+}
+#About {
+  color: #73b7e1;
+}
+#Judul {
+  color: #73b7e1;
+}
+.rounded-circle {
+  --bs-border-color: #73b7e1;
+}
+#Projects {
+  background-color: #cde5f4;
+}
+.card {
+  max-width: 18rem;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+#Contact {
+  background-color: #cde5f4;
+  color: #73b7e1;
+}
+footer {
+  background-color: #73b7e1;
+  color: white;
+}

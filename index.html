@@ -4,29 +4,31 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rayhan's</title>
+    <script src="https://kit.fontawesome.com/e22a7ecf81.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
   </head>
-  <body>
+  <body id="satu">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #73b7e1">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top">
       <div class="container">
-        <a class="navbar-brand" style="font-family: Brush Script MT; font-size: x-large" href="#">Rayhan's</a>
+        <a class="navbar-brand" href="http://www.rayhans21.github.io">Rayhan's</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#satu">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link"href="#satu">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://rayhans21.github.io/sysinfo-unisi/">Portfolio</a>
+              <a class="nav-link" href="#tiga">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -34,12 +36,12 @@
     </nav>
     <!-- Akhir Navbar -->
     <!-- Hero -->
-    <section class="text-center pt-5 pb-1" style="background-color: #cde5f4">
-      <img class="rounded-circle border border-3" style="--bs-border-color: #73b7e1" src="img/_DSC3206.png" alt="Foto Rayhan" width="230" />
-      <h1 class="fw-semibold" style="color: #73b7e1">Muhammad Rayhan Syah</h1>
-      <p class="lead fw-semibold" style="color: #73b7e1">Information Systems Student</p>
+    <section id="Hero" class="text-center pt-5 pb-1">
+      <img class="rounded-circle border border-3" src="img/_DSC3206.png" alt="Foto Rayhan" width="230" />
+      <h1 class="fw-semibold">Muhammad Rayhan Syah</h1>
+      <p class="lead fw-semibold">Information Systems Student</p>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg id="dua" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="#cde5f4"
         fill-opacity="1"
@@ -65,7 +67,7 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg id="tiga" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#cde5f4"
           fill-opacity="1"
@@ -75,17 +77,17 @@
     </section>
     <!-- Akhir About -->
     <!-- Project -->
-    <section id="Projects" style="background-color: #cde5f4">
+    <section id="Projects">
       <div class="container">
         <div class="row text-center">
           <div class="col mb-3">
-            <h2>My Projects</h2>
+            <h2 id="Judul">My Projects</h2>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4 mb-3">
-            <div class="card mx-auto" style="width: 18rem">
-              <img src="img/_DSC3206.JPG" class="card-img-top" alt="..." />
+            <div class="card mx-auto text-white" style="background-color: #73b7e1">
+              <img src="img/intbh-head.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5>Indraradio.com</h5>
                 <p class="card-text">Radio streaming and news website</p>
@@ -93,27 +95,68 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card mx-auto" style="width: 18rem">
-              <img src="img/_DSC3206.JPG" class="card-img-top" alt="..." />
+            <div class="card mx-auto text-white" style="background-color: #73b7e1">
+              <img src="img/sysinfo-head.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5>SysInfo UNISI</h5>
-                <p class="card-text">Typewriting effect for welcome web</p>
+                <p class="card-text">Typing effect for welcome web</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card mx-auto" style="width: 18rem">
-              <img src="img/_DSC3206.JPG" class="card-img-top" alt="..." />
+            <div class="card mx-auto text-white" style="background-color: #73b7e1">
+              <img src="img/etudions.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5>PABW</h5>
-                <p class="card-text">Simple web for courework</p>
+                <h5>Etudions</h5>
+                <p class="card-text">Simple web UI for coursework</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#cde5f4"
+        fill-opacity="1"
+        d="M0,320L48,288C96,256,192,192,288,154.7C384,117,480,107,576,133.3C672,160,768,224,864,224C960,224,1056,160,1152,165.3C1248,171,1344,245,1392,282.7L1440,320L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
     <!-- Akhir Project -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- Experiences -->
+    <section id="Exp">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Tranings & Workshops</h2>
+          </div>
+        </div>
+        <div class="row justify-content-around fs-5 text-center">
+          <div class="col-md-4">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto libero saepe illum fugit labore omnis, delectus voluptatum ducimus vitae unde!</p>
+          </div>
+          <div class="col-md-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi soluta similique enim quo. Ad consequuntur, iure expedita, omnis nemo at iste incidunt aliquam a, tempora id explicabo cupiditate quis labore ipsa error optio
+            laboriosam neque?
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cde5f4" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <!-- Experiences -->
+    <!-- Contact -->
+    <section id="Contact" class="text-center">
+      <h2 class="mb-4">Get in Touch</h2>
+      <h5 class="fw-semibold" style="margin-bottom: 0; color: black;">Muhammad Rayhan Syah</h5>
+      <p style="margin-bottom: 0; color: black;">rayhan2102@gmail.com</p>
+      <div class="col mb-5">
+        <a class="btn btn-outline-indigo btn-social mx-1 rounded-circle btn-lg" href="http://www.linkedin.com/in/muhammadrayhans"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a class="btn btn-outline-indigo btn-social mx-1 rounded-circle btn-lg" href="http://wa.me/6285263854182"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+      <!-- Akhir Contact -->
+      <footer class="py-1">
+        <p>Created by <a href="http://www.instagram.com/muhammadrayhans" class="text-white fw-semibold">@muhammadrayhans</a></p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
