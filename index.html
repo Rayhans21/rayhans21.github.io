@@ -17,7 +17,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto   ">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#satu">Home</a>
             </li>
@@ -25,7 +25,7 @@
               <a class="nav-link"href="#dua">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#tiga">Portfolio</a>
+              <a class="nav-link" href="#tiga">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Contact">Contact</a>
@@ -40,6 +40,10 @@
       <img class="rounded-circle border border-3" style="--bs-border-color: #73b7e1" src="img/cde5f4.png" alt="Foto Rayhan" width="230" />
       <h1 class="fw-semibold">Muhammad Rayhan Syah</h1>
       <p class="lead fw-semibold">Information Systems Student</p>
+      <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-down shadow-sm mt-3 mx-3 ">Download CV</button>
+        <button type="button" class="btn btn-down shadow-sm mt-3 mx-3 ">Download Portfolio</button>
+      </div>
     </section>
     <svg id="dua" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
@@ -51,7 +55,7 @@
     <!-- Akhir Hero -->
     <!-- About -->
     <section id="About">
-      <div class="container">
+      <div class="container text-center">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -78,7 +82,7 @@
     <!-- Akhir About -->
     <!-- Project -->
     <section id="Projects">
-      <div class="container">
+      <div class="container text-center">
         <div class="row text-center">
           <div class="col mb-3">
             <h2 id="Judul">My Projects</h2>
@@ -118,35 +122,51 @@
         </div>
       </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#cde5f4"
-        fill-opacity="1"
-        d="M0,320L48,288C96,256,192,192,288,154.7C384,117,480,107,576,133.3C672,160,768,224,864,224C960,224,1056,160,1152,165.3C1248,171,1344,245,1392,282.7L1440,320L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-      ></path>
-    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cde5f4" fill-opacity="1" d="M0,224L24,213.3C48,203,96,181,144,192C192,203,240,245,288,240C336,235,384,181,432,138.7C480,96,528,64,576,53.3C624,43,672,53,720,96C768,139,816,213,864,234.7C912,256,960,224,1008,181.3C1056,139,1104,85,1152,90.7C1200,96,1248,160,1296,154.7C1344,149,1392,75,1416,37.3L1440,0L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
     <!-- Akhir Project -->
     <!-- Experiences -->
     <section id="Exp">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Tranings & Workshops</h2>
-          </div>
-        </div>
-        <div class="row justify-content-around fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto libero saepe illum fugit labore omnis, delectus voluptatum ducimus vitae unde!</p>
-          </div>
-          <div class="col-md-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi soluta similique enim quo. Ad consequuntur, iure expedita, omnis nemo at iste incidunt aliquam a, tempora id explicabo cupiditate quis labore ipsa error optio
-            laboriosam neque?
+      <div class="col my-5">
+        <h2 id="Judul" class="text-center">Trainings & Workshops</h2>
+        <div class="row mt-5">
+          <div class="col-md-4 offset-md-2">
+            <ul class="timeline">
+              <li>
+                <h5 id="Sertif">ITTS Huawei Students Developer</h5>
+                <h6 id="Sertif">Huawei Developer | Feb 2022</h6>
+                <p>Developing Android based application using
+                  Huawei Mobile Service and Developer Kit</p>
+              </li>
+              <li>
+                <h5 id="Sertif">Telkom Antares IoT</h5>
+                <h6 id="Sertif">Telkom Indonesia & Antares | Jun 2020</h6>
+                <p>Hands-On IoT Digital Platform by Antares
+                  road to DILo Hackathon 2020</p>
+              </li>
+              <li>
+                <h5 id="Sertif">Cyber Security Workshop</h5>
+                <h6 id="Sertif">Garuda Cyber Indonesia | Dec 2019</h6>
+                <p>Learn about cyber security, hacking method
+                  and social engineering</p>
+              </li>
+              <li>
+                <h5 id="Sertif">Telkom Hands-On API MDD</h5>
+                <h6 id="Sertif">Antares & Bigbox | Jul 2019</h6>
+                <p>Workshop 2 Days Hands-on Platform API
+                  MDD (Antares & BigBox) at DILo Pekanbaru</p>
+              </li>
+              <li>
+                <h5 id="Sertif">Lailatul Coding</h5>
+                <h6 id="Sertif">DILo Telkom Indonesia | May 2019</h6>
+                <p>Charity event to build a website in one night
+                  during ramadhan</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cde5f4" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    <!-- Experiences -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cde5f4" fill-opacity="1" d="M0,64L80,64C160,64,320,64,480,96C640,128,800,192,960,202.7C1120,213,1280,171,1360,149.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg><!-- Experiences -->
     <!-- Contact -->
     <section id="Contact" class="text-center">
       <h2 class="mb-4">Get in Touch</h2>
@@ -157,8 +177,8 @@
         <a class="btn btn-outline-indigo btn-social mx-1 rounded-circle btn-lg" href="http://wa.me/6285263854182"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
       <!-- Akhir Contact -->
-      <footer class="py-1">
-        <p>Created by <a href="http://www.instagram.com/muhammadrayhans" class="text-white fw-semibold">@muhammadrayhans</a></p>
+      <footer>
+        <p class="mb-0">Created by <a href="http://www.instagram.com/muhammadrayhans" class="text-white">@muhammadrayhans</a></p>
       </footer>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>

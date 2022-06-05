@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
 .navbar {
   background-color: #73b7e1;
 }
 .navbar-brand {
-  font-family: Brush Script MT;
-  font-size: x-large;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: x-large !important;
 }
 #Hero {
   background-color: #cde5f4;
@@ -32,7 +33,21 @@
   background-color: #cde5f4;
   color: #73b7e1;
 }
+.btn-down {
+  background-color: #73b7e1 !important;
+  color: #ffffff !important;
+  width: 170px;
+}
+.btn-down:hover {
+  transform: scale(1.05);
+}
 footer {
   background-color: #73b7e1;
   color: white;
+}
+ul.timeline {
+  list-style-type: none;
+}
+#Sertif {
+  color: #73b7e1;
 }
