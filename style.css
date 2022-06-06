@@ -14,7 +14,15 @@
   color: #73b7e1;
 }
 #Judul {
-  color: #73b7e1;
+  background-color: #73b7e1;
+  color: #ffffff;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: fit-content;
+  border-radius: 5px;
+  margin: auto;
 }
 .rounded-circle {
   --bs-border-color: #73b7e1;
@@ -48,6 +56,16 @@ footer {
 ul.timeline {
   list-style-type: none;
 }
+/* ul.timeline::before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+} */
 #Sertif {
   color: #73b7e1;
 }
